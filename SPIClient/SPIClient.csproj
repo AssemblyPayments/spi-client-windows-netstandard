@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Version>2.1.5</Version>
+    <Company>Assembly Payments</Company>
+    <Product>Instore</Product>
+    <Description>Client for Assembly Payments Instore Simple Payments Integration (SPI) API</Description>
+    <Copyright>Copyright ©  2018</Copyright>
+    <TargetFrameworks>netstandard2.0</TargetFrameworks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="log4net" Version="2.0.8" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <PackageReference Include="WebSocket4Net" Version="0.15.2" />
+  </ItemGroup>
+
+</Project>
+ 
