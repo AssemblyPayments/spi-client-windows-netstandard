@@ -16,7 +16,7 @@ namespace SPIClient
     {
         #region Public Properties and Events
 
-        public readonly SpiConfig Config = new SpiConfig();
+        public SpiConfig Config { get; } = new SpiConfig();
 
         /// <summary>
         /// The Current Status of this Spi instance. Unpaired, PairedConnecting or PairedConnected.

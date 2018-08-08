@@ -4,6 +4,7 @@ namespace SPIClient
 {
     public interface ISpi
     {
+        SpiConfig Config { get; }
         SpiFlow CurrentFlow { get; }
         PairingFlowState CurrentPairingFlowState { get; }
         SpiStatus CurrentStatus { get; }
